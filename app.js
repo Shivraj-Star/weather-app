@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const routes = require( './routes' );
-const port = 8080;
+const port = 8000;
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
